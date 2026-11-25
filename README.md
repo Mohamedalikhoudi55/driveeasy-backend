@@ -190,16 +190,16 @@ Les bases de données étant configurées en mémoire (**H2**), les données son
 ## 7. Captures d'écran
 
 ### Tableau de bord Eureka (`http://localhost:8761`)
-![Eureka Dashboard](docs/eureka.png)
+![Eureka Dashboard](./docs/eureka.png)
 
 ### Traçage distribué Zipkin (`http://localhost:9411`)
-![Zipkin Traces](docs/zipkin.png)
+![Zipkin Traces](./docs/zipkin.png)
 
 ### Création d'une réservation (`POST /api/locations` — `201 Created`)
-![Création Réservation](docs/postman1.png)
+![Création Réservation](./docs/postman1.png)
 
 ### Blocage métier d'un client non éligible (`POST /api/locations` — `400 Bad Request`)
-![Rejet Client Non Éligible](docs/postman2.png)
+![Rejet Client Non Éligible](./docs/postman2.png)
 
 ### Consultation des statistiques globales (`GET /api/locations/statistiques` — `200 OK`)
-![Statistiques](docs/postman3.png)
+![Statistiques](./docs/postman3.png)
