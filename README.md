@@ -190,16 +190,21 @@ Les bases de données étant configurées en mémoire (**H2**), les données son
 ## 7. Captures d'écran
 
 ### Tableau de bord Eureka (`http://localhost:8761`)
-![Eureka Dashboard](./docs/eureka.png)
+![Eureka Dashboard]<img width="1921" height="881" alt="eureka" src="https://github.com/user-attachments/assets/3141288f-4f56-406f-a186-2b5a4d1e8247" />
+
 
 ### Traçage distribué Zipkin (`http://localhost:9411`)
-![Zipkin Traces](./docs/zipkin.png)
+![Zipkin Traces]<img width="1916" height="876" alt="zipkin" src="https://github.com/user-attachments/assets/20385fc3-a88b-4db0-bc5c-d1fd10955823" />
+
 
 ### Création d'une réservation (`POST /api/locations` — `201 Created`)
-![Création Réservation](./docs/postman1.png)
+![Création Réservation]<img width="1921" height="1025" alt="postman1" src="https://github.com/user-attachments/assets/f0d00549-f5d7-4da4-a71f-ef7d198ad659" />
+
 
 ### Blocage métier d'un client non éligible (`POST /api/locations` — `400 Bad Request`)
-![Rejet Client Non Éligible](./docs/postman2.png)
+![Rejet Client Non Éligible]<img width="1921" height="1025" alt="postman2" src="https://github.com/user-attachments/assets/788690fa-63b7-45ab-ac56-7d3a17652d06" />
+
 
 ### Consultation des statistiques globales (`GET /api/locations/statistiques` — `200 OK`)
-![Statistiques](./docs/postman3.png)
+![Statistiques]<img width="1921" height="1025" alt="postman3" src="https://github.com/user-attachments/assets/14dc3f66-1e9f-4e28-bb41-a9afdab5561b" />
+
