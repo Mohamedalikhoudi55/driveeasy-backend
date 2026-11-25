@@ -1,0 +1,28 @@
+server:
+  port: 8083
+
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info
+  tracing:
+    sampling:
+      probability: 1.0
+  zipkin:
+    tracing:
+      endpoint: http://localhost:9411/api/v2/spans
+
+location:
+  remise:
+    fidele: 0.05
+    vip: 0.10
+  penalite:
+    coefficient-retard: 1.5     
